@@ -1,0 +1,132 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background: hsl(0, 0%, 95%);
+    font-size: 15px;
+}
+
+h2, p{
+    margin: 0px;
+}
+
+main{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor-bloques{
+    width: 60%;
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.bloque{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1.7rem;
+    align-items: flex-start;
+    justify-content: center;
+    color: hsla(0, 0%, 100%, 0.75);
+    padding: 2.5rem;
+}
+
+.bloque h2{
+    font-family: 'Big Shoulders Display', cursive;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    color: #ecf7f9;
+}
+
+.bloque p{
+    font-family: 'Lexend Deca', sans-serif;
+    margin-bottom: 3rem;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+button{
+    border: 2px solid white;
+    padding: 12px 25px;
+    background: hsl(0, 0%, 95%);
+    border-radius: 20px;
+}
+
+button:hover{
+    cursor: pointer;
+    background: transparent;
+}
+
+.bloque:nth-child(1){
+    background: hsl(31, 77%, 52%);
+}
+
+.bloque:nth-child(1) button{
+    color: hsl(31, 77%, 52%);
+}
+
+.bloque:nth-child(1) button:hover{
+    color: white;
+}
+
+.bloque:nth-child(2){
+    background: hsl(184, 100%, 22%);
+}
+
+.bloque:nth-child(2) button{
+    color: hsl(184, 100%, 22%);
+}
+
+.bloque:nth-child(2) button:hover{
+    color: white;
+}
+
+.bloque:nth-child(3){
+    background: hsl(179, 100%, 13%);
+}
+
+.bloque:nth-child(3) button{
+    color: hsl(179, 100%, 13%);
+}
+
+.bloque:nth-child(3) button:hover{
+    color: white;
+}
+
+@media screen and (max-width: 1024px) {
+    main{
+        padding-top: 2rem;
+        width: 100%;
+        height: auto;
+    }
+
+    .bloque p{
+        margin-bottom: 0px;
+    }
+
+    .contenedor-bloques{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    footer{
+        min-height: 10vh;
+    }
+}

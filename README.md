@@ -26,12 +26,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./design/screenshot1.png)
 ![](./design/screenshot2.png)
+![](./design/screenshot1.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/3column-preview-card-component-solution-uv2nbEgNfd]
 - Live Site URL: [https://fastidious-meringue-d7cdf6.netlify.app/]
 
 ## My process
